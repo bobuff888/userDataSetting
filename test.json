@@ -1,0 +1,1309 @@
+{
+    "effective_day": 7,
+    "gift": 40000,
+    "min_pay_point": 200000,
+    "check_in_reward": [
+        {
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 1000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 1000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 1000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 1000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 1000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 1000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 2000,
+                    "reward_code": 3
+                }
+            ],
+            "vip_level": 1
+        },
+        {
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 1200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 1200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 1200,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 1200,
+                    "reward_code": 3,
+                    "day": 4
+                },
+                {
+                    "reward_code": 3,
+                    "day": 5,
+                    "reward_point": 1200
+                },
+                {
+                    "day": 6,
+                    "reward_point": 1200,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 7,
+                    "reward_point": 2400
+                }
+            ],
+            "vip_level": 2
+        },
+        {
+            "vip_level": 3,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 1400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 1400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 1400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 1400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 1400,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 1400,
+                    "reward_code": 3,
+                    "day": 6
+                },
+                {
+                    "reward_point": 2800,
+                    "reward_code": 3,
+                    "day": 7
+                }
+            ]
+        },
+        {
+            "vip_level": 4,
+            "day_rewards": [
+                {
+                    "reward_code": 3,
+                    "day": 1,
+                    "reward_point": 1600
+                },
+                {
+                    "day": 2,
+                    "reward_point": 1600,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 1600,
+                    "reward_code": 3,
+                    "day": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 1600,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 1600,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 1600,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 7,
+                    "reward_point": 3000
+                }
+            ]
+        },
+        {
+            "vip_level": 5,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 1700,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 1700,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 1700,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 4,
+                    "reward_point": 1700
+                },
+                {
+                    "day": 5,
+                    "reward_point": 1700,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 1700,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 3200,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 6,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 1800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 1800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 1800,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 1800,
+                    "reward_code": 3,
+                    "day": 4
+                },
+                {
+                    "day": 5,
+                    "reward_point": 1800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 1800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 3400,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 7,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 2200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 2200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 2200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 2200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 2200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 2200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 4800,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 8,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 2400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 2400,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 3,
+                    "reward_point": 2400
+                },
+                {
+                    "day": 4,
+                    "reward_point": 2400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 2400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 2400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 5200,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 9,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 2600,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 2600,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 2600,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 2600,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 2600,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 2600,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 5400,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 10,
+            "day_rewards": [
+                {
+                    "reward_point": 3000,
+                    "reward_code": 3,
+                    "day": 1
+                },
+                {
+                    "day": 2,
+                    "reward_point": 3000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 3000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 3000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 3000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 3000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 6000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 11,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 3400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 3400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 3400,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 3400,
+                    "reward_code": 3,
+                    "day": 4
+                },
+                {
+                    "day": 5,
+                    "reward_point": 3400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 3400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 6800,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 12,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 3800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 3800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 3800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 3800,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 3800,
+                    "reward_code": 3,
+                    "day": 5
+                },
+                {
+                    "day": 6,
+                    "reward_point": 3800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 7400,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 13,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 4400,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 4400,
+                    "reward_code": 3,
+                    "day": 2
+                },
+                {
+                    "reward_point": 4400,
+                    "reward_code": 3,
+                    "day": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 4400,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 5,
+                    "reward_point": 4400
+                },
+                {
+                    "day": 6,
+                    "reward_point": 4400,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 8200,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 14,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 5200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 5200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 5200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 5200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 5200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 5200,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 9200,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 15,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 6000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 6000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 6000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 6000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 5,
+                    "reward_point": 6000
+                },
+                {
+                    "reward_code": 3,
+                    "day": 6,
+                    "reward_point": 6000
+                },
+                {
+                    "reward_point": 10200,
+                    "reward_code": 3,
+                    "day": 7
+                }
+            ]
+        },
+        {
+            "vip_level": 16,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 7000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 7000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 7000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 7000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 7000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 7000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 12000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 17,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 8800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 8800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 8800,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 8800,
+                    "reward_code": 3,
+                    "day": 4
+                },
+                {
+                    "reward_code": 3,
+                    "day": 5,
+                    "reward_point": 8800
+                },
+                {
+                    "day": 6,
+                    "reward_point": 8800,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 18000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 18,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 12000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 12000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 12000,
+                    "reward_code": 3,
+                    "day": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 12000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 12000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 12000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 26000,
+                    "reward_code": 3,
+                    "day": 7
+                }
+            ]
+        },
+        {
+            "vip_level": 19,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 18000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 18000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 18000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 18000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 18000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 18000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 36000,
+                    "reward_code": 3,
+                    "day": 7
+                }
+            ]
+        },
+        {
+            "vip_level": 20,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 30000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 30000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 30000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 30000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 5,
+                    "reward_point": 30000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 6,
+                    "reward_point": 30000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 7,
+                    "reward_point": 50000,
+                    "reward_code": 3
+                }
+            ]
+        }
+    ],
+    "box_reward": [
+        {
+            "vip_level": 1,
+            "day_rewards": [
+                {
+                    "reward_code": 3,
+                    "day": 10,
+                    "reward_point": 10000
+                },
+                {
+                    "day": 15,
+                    "reward_point": 10000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 10000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 30,
+                    "reward_point": 20000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 2,
+            "day_rewards": [
+                {
+                    "reward_point": 10000,
+                    "reward_code": 3,
+                    "day": 10
+                },
+                {
+                    "day": 15,
+                    "reward_point": 10000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 20000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 30,
+                    "reward_point": 40000
+                }
+            ]
+        },
+        {
+            "vip_level": 3,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 10000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 10000,
+                    "reward_code": 3,
+                    "day": 15
+                },
+                {
+                    "reward_code": 3,
+                    "day": 20,
+                    "reward_point": 20000
+                },
+                {
+                    "reward_code": 3,
+                    "day": 30,
+                    "reward_point": 40000
+                }
+            ]
+        },
+        {
+            "vip_level": 4,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 10000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 20000,
+                    "reward_code": 3,
+                    "day": 15
+                },
+                {
+                    "day": 20,
+                    "reward_point": 40000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 30,
+                    "reward_point": 80000
+                }
+            ]
+        },
+        {
+            "vip_level": 5,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 20000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 40000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 3,
+                    "reward_point": 60000
+                },
+                {
+                    "day": 4,
+                    "reward_point": 80000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 30000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 50000,
+                    "reward_code": 3,
+                    "day": 2
+                },
+                {
+                    "reward_point": 80000,
+                    "reward_code": 3,
+                    "day": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 120000,
+                    "reward_code": 3
+                }
+            ],
+            "vip_level": 6
+        },
+        {
+            "vip_level": 7,
+            "day_rewards": [
+                {
+                    "day": 1,
+                    "reward_point": 30000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 2,
+                    "reward_point": 50000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 80000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 120000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 8,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 40000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 15,
+                    "reward_point": 60000
+                },
+                {
+                    "reward_code": 3,
+                    "day": 20,
+                    "reward_point": 80000
+                },
+                {
+                    "day": 30,
+                    "reward_point": 160000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 9,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 60000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 80000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 120000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 30,
+                    "reward_point": 200000
+                }
+            ]
+        },
+        {
+            "vip_level": 10,
+            "day_rewards": [
+                {
+                    "reward_code": 3,
+                    "day": 10,
+                    "reward_point": 80000
+                },
+                {
+                    "day": 15,
+                    "reward_point": 120000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 160000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 30,
+                    "reward_point": 280000
+                }
+            ]
+        },
+        {
+            "vip_level": 11,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 120000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 160000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 20,
+                    "reward_point": 200000
+                },
+                {
+                    "day": 30,
+                    "reward_point": 320000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 12,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 160000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 200000,
+                    "reward_code": 3,
+                    "day": 15
+                },
+                {
+                    "day": 20,
+                    "reward_point": 240000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 30,
+                    "reward_point": 380000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 13,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 200000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 240000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 260000,
+                    "reward_code": 3,
+                    "day": 20
+                },
+                {
+                    "day": 30,
+                    "reward_point": 460000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 14,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 220000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 260000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 320000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_code": 3,
+                    "day": 30,
+                    "reward_point": 550000
+                }
+            ]
+        },
+        {
+            "vip_level": 15,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 260000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 320000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 400000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 30,
+                    "reward_point": 660000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 300000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 400000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 500000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 750000,
+                    "reward_code": 3,
+                    "day": 30
+                }
+            ],
+            "vip_level": 16
+        },
+        {
+            "vip_level": 17,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 500000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 600000,
+                    "reward_code": 3
+                },
+                {
+                    "reward_point": 800000,
+                    "reward_code": 3,
+                    "day": 20
+                },
+                {
+                    "day": 30,
+                    "reward_point": 1000000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 18,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 800000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 1100000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 1400000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 30,
+                    "reward_point": 2000000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 19,
+            "day_rewards": [
+                {
+                    "day": 10,
+                    "reward_point": 1000000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 15,
+                    "reward_point": 1500000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 20,
+                    "reward_point": 2000000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 30,
+                    "reward_point": 3000000,
+                    "reward_code": 3
+                }
+            ]
+        },
+        {
+            "vip_level": 20,
+            "day_rewards": [
+                {
+                    "reward_code": 3,
+                    "day": 1,
+                    "reward_point": 1500000
+                },
+                {
+                    "day": 2,
+                    "reward_point": 2000000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 3,
+                    "reward_point": 2500000,
+                    "reward_code": 3
+                },
+                {
+                    "day": 4,
+                    "reward_point": 5000000,
+                    "reward_code": 3
+                }
+            ]
+        }
+    ]
+}
