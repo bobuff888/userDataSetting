@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel表格转Go代码</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        textarea, input { width: 100%; margin-top: 10px; }
+        button { margin-top: 10px; padding: 10px; width: 100%; font-size: 16px; }
+        pre { background: #f4f4f4; padding: 10px; border: 1px solid #ccc; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+
+<h2>Excel表格转 Go 代码工具</h2>
+<p>1. 在Excel复制表格（包括标题） → 2. 粘贴到下面 → 3.点击生成</p>
+
+<textarea id="tableInput" rows="15" placeholder="粘贴表格内容..."></textarea>
+<button onclick="generateGoCode()">生成 Go 代码</button>
+<button onclick="copyCode()">复制代码</button>
+
+<h3>生成的Go代码：</h3>
+<pre id="output"></pre>
+
+<script>
+    function generateGoCode() {
+        const tableData = document.getElementById('tableInput').value.trim();
+        //const curveId = document.getElementById('curveIdInput').value.trim();
+
+        if (!tableData) {
+            alert("请粘贴表格！");
+            return;
+        }
+
+        const lines = tableData.split('\n');
+        let curveId = "";
+        let loss = "";
+        const headerLine = lines[0];
+        const headerParts = headerLine.trim().split('\t');
+        for (let i = 0; i < headerParts.length; i++) {
+            if (headerParts[i] === "模式") {
+                curveId = headerParts[i+1] 
+                loss = headerParts[i+2];
+            };
+           
+        }
+        let goCode = `var ${loss}${curveId} = cacheData.Curve{\n`;
+        goCode += `\tId:     ${curveId},\n`;
+        goCode += `\tNowIdx: 0,\n`;
+        goCode += `\tBalance: []*cacheData.Balance{\n`;
+
+        lines.forEach(line => {
+            if (line.startsWith("no") || line.trim() === "") return;
+            const parts = line.trim().split('\t');
+            if (parts.length < 7) return;
+
+            const startFlow = parts[1];
+            const rawBalance = parts[2].trim();
+            let balanceField = "Balance";
+            let balanceValue = rawBalance;
+
+            if (rawBalance.includes('%')) {
+                balanceField = "BalancePro";
+                balanceValue = rawBalance.replace('%', '').trim();
+            }
+            if (!isNaN(balanceValue)) {
+                balanceValue = parseFloat(balanceValue).toString();
+            }
+            const type = parts[3];
+            const balanceType = parts[4];
+            const haveBigWin = parts[5].toUpperCase() === "TRUE" ? "true" : "false";
+            const mustKill = parts[6].toUpperCase() === "TRUE" ? "true" : "false";
+
+            goCode += `\t\t{StartFlow: ${startFlow}, ${balanceField}: ${balanceValue}, Type: ${type}, HaveBigWin: ${haveBigWin}, BalanceType: ${balanceType}, MustKill: ${mustKill}},\n`;
+        });
+
+        goCode += `\t},\n`;
+        goCode += `}\n`;
+
+        document.getElementById('output').textContent = goCode;
+    }
+    function copyCode() {
+            const code = document.getElementById('output').textContent;
+            if (!code) return;
+            navigator.clipboard.writeText(code).then(() => {
+                
+            });
+        }
+</script>
+
+</body>
+</html>
