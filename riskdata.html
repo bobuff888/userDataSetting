@@ -31,25 +31,32 @@
             alert("请粘贴表格！");
             return;
         }
-
         const lines = tableData.split('\n');
+        let goCode = "";
         let curveId = "";
         let loss = "";
-        const headerLine = lines[0];
-        const headerParts = headerLine.trim().split('\t');
-        for (let i = 0; i < headerParts.length; i++) {
-            if (headerParts[i] === "模式") {
-                curveId = headerParts[i+1] 
-                loss = headerParts[i+2];
-            };
-           
-        }
-        let goCode = `var ${loss}${curveId} = cacheData.Curve{\n`;
-        goCode += `\tId:     ${curveId},\n`;
-        goCode += `\tNowIdx: 0,\n`;
-        goCode += `\tBalance: []*cacheData.Balance{\n`;
 
         lines.forEach(line => {
+            
+           if  (line.includes("模式")) {
+                if (goCode) {
+                   goCode += `\t},\n`;
+                    goCode += `}\n\n`;
+                }
+                const headerLine = line;
+                const headerParts = headerLine.trim().split('\t');
+                for (let i = 0; i < headerParts.length; i++) {
+                    if (headerParts[i] === "模式") {
+                        curveId = headerParts[i+1] 
+                        loss = headerParts[i+2];
+                        goCode += `var ${loss}${curveId} = cacheData.Curve{\n`;
+                        goCode += `\tId:     ${curveId},\n`;
+                        goCode += `\tNowIdx: 0,\n`;
+                        goCode += `\tBalance: []*cacheData.Balance{\n`;
+                    };
+                
+                }
+           }
             if (line.startsWith("no") || line.trim() === "") return;
             const parts = line.trim().split('\t');
             if (parts.length < 7) return;
@@ -75,7 +82,7 @@
         });
 
         goCode += `\t},\n`;
-        goCode += `}\n`;
+        goCode += `}\n\n`;
 
         document.getElementById('output').textContent = goCode;
     }
